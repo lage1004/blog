@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: comments
+#
+#  id         :integer          not null, primary key
+#  post_id    :integer
+#  body       :text
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
